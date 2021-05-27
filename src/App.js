@@ -36,7 +36,6 @@ class App extends React.Component {
         this.unsubscribeFromAuth();
     }
     render() {
-        console.log('currentUser', this.state.currentUser);
         return (
             <BrowserRouter>
                 <Header currentUser={this.state.currentUser} />
